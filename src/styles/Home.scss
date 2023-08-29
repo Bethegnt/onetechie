@@ -66,7 +66,7 @@
       color: $first;
       letter-spacing: 2px;
       word-spacing: 5px;
-      font: 100 1.2rem $text2;
+      font: 100 1.2rem $text1;
     }
   }
 }
@@ -108,7 +108,7 @@
       letter-spacing: 1px;
       word-spacing: 5px;
       line-height: 170%;
-      font: italic 100 1.2rem $text2;
+      font: italic 100 1.2rem $text1;
     }
   }
 }
@@ -166,7 +166,7 @@
           font-size: 4rem;
         }
         p {
-          font: 900 1.2rem $text2;
+          font: 900 1.2rem $text1;
         }
       }
     }
