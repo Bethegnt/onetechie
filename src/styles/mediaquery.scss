@@ -1,8 +1,25 @@
 @media screen and (max-width: 820px) {
+    
+    .home{
+      height: 100vh;
+    }
+    .home2{
+      height:80vh;
+
+      img{
+        height: 20rem;
+        width: 20rem;
+    
+      }
+      height: 100vh;
+      >div{
+        height: 100vh;
+      }
+    }
     .home3 {
-      height: 230vh;
+      height: 100vh;
       > div {
-        height: 200vh;
+        height: 100vh;
       }
     }
   
@@ -12,6 +29,12 @@
       border-radius: 0%;
       h1 {
         text-align: center;
+      }
+    }
+
+    .home4{
+      > div {
+        height: 70vh;
       }
     }
   }
@@ -95,3 +118,31 @@
     }
   }
   
+  @media screen and (max-width: 375px) {
+
+    .home3{
+      height:330vh;
+      > div {
+        height: 330vh;
+      }
+    }
+    .home4{
+      height: 200vh;
+      > div {
+        height: 150vh;
+
+      }
+    }
+    footer{
+      height: 100vh;
+      > div {
+        > p{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      
+    }
+  }    
